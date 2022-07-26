@@ -125,6 +125,16 @@
 </script>
 
 <style lang='scss' scoped>
+  .btn-outline-primary {
+    border: 2px solid #001D6E;
+    color: #001D6E;
+  }
+
+  .btn-outline-primary:hover {
+    background-color: #001D6E;
+    border: 2px solid #001D6E;
+  }
+
   header {
     background-color: #fff;
     z-index: 99;
@@ -162,6 +172,7 @@
         padding: 14px;
         margin-left: 15px;
         font-family: 'Jost', sans-serif;
+        font-weight: bold;
 
       }
 

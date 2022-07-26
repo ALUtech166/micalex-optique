@@ -89,7 +89,9 @@
     <section class="vision">
       <div class="container">
         <div class="aside">
-          <h1>Notre Vision</h1>
+          <div class="heading" style="text-align: center;">
+            <h1>Notre Vision</h1>
+          </div>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque suscipit adipisci, alias, porro amet
             dolores beatae natus ipsa autem mollitia est enim, eos consequuntur? Voluptas, saepe? Possimus aliquam sed
             accusamus!</p>
@@ -106,8 +108,28 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <img src="" alt="">
-            <h3>Hi</h3>
+            <div class="flex">
+              <img src="" alt="">
+              <h1>Heures D'ouverture</h1>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="flex">
+              <img src="" alt="">
+              <h1>Service Immediat</h1>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="flex">
+              <img src="" alt="">
+              <h1>Cas d'Assurance</h1>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="flex">
+              <img src="" alt="">
+              <h1>Reparations et Ajustements</h1>
+            </div>
           </div>
 
         </div>
@@ -154,7 +176,7 @@
 
 <style lang="scss" scoped>
   h5 {
-    font-size: 45px;
+    font-size: 35px;
     animation-name: moveInLeft;
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
@@ -166,8 +188,10 @@
 
   }
 
+
+
   p {
-    font-size: 20px;
+    font-size: 15px;
     animation: moveInRight 3s ease-out;
     font-weight: 400;
     margin-bottom: 100px;
@@ -182,15 +206,15 @@
     padding: 20px;
     text-align: center;
     @media (min-width: 550px) {
-        height: 50vh;
+        height: 75vh;
         padding: 50px;
-        margin: 10px;
+        margin: 15px;
       }
 
     h1 {
       text-align: center;
       text-transform: uppercase;
-      font-size: 35px;
+      font-size: 25px;
       padding: 5px;
       font-family: 'Jost', sans-serif;
       color: #001D6E;
@@ -199,7 +223,9 @@
 
     img {
       align-items: center;
-      padding: 10px;
+      padding: 15px;
+      
+
     }
 
     .row {
@@ -231,7 +257,7 @@
       text-align: center;
       padding: 5px;
       text-transform: uppercase;
-      font-size: 20px;
+      font-size: 15px;
     }
   }
 
@@ -280,7 +306,22 @@
   }
 
   .parterns {
-    padding: 10px;
+    padding: 20px;
+  }
+
+  .work-hours {
+    padding: 40px;
+    text-align: center;
+    background-color: #CFD2CF;
+
+    h1 {
+        text-transform: uppercase;
+        font-size: 20px;
+        font-family: 'Jost', sans-serif;
+        color: #001D6E;
+        font-weight: bold;
+        
+    }
   }
 
   .hero {
