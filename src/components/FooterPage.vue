@@ -4,26 +4,36 @@
                <div class="row">
                     <div class="col-lg-3">
                          <img class="img-fluid" src="../assets/logo.png" alt="">
-                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut accusamus labore praesentium
-                              debitis beatae similique quia autem assumenda totam, qui corrupti commodi eius ipsa
-                              repellendus rem ex fugiat ducimus! Culpa!</p>
+                         <p>
+                              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                              Aut accusamus labore praesentium
+                              debitis beatae similique quia autem assumenda totam
+                         </p>
                     </div>
 
                     <div class="col-lg-3">
                          <h1>Liens Utiles</h1>
                          <ul>
-                              <li>Acceuil</li>
-                              <li>A propos</li>
-                              <li>Services</li>
-                              <li>Galerie</li>
+                              <li>
+                                   <router-link class="link" to="/">Acceuil</router-link>
+                              </li>
+                              <li>
+                                   <router-link class="link" to="/a-propos">A propos</router-link>
+                              </li>
+                              <li>
+                                   <router-link class="link" to="/service">Services</router-link>
+                              </li>
+                              <li>
+                                   <router-link class="link" to="/galerie">Galerie</router-link>
+                              </li>
                          </ul>
                     </div>
                     <div class="col-lg-3">
                          <h1>Contacts</h1>
                          <ul>
-                              <li>Email</li>
-                              <li>Telephone</li>
-                              <li>Adresse</li>
+                              <li>contact@micalexoptique.com</li>
+                              <li>+228 93658616</li>
+                              <li>Lomé au quartier Dekon, en face de la Banque NSIA</li>
                          </ul>
                     </div>
                     <div class="col-lg-3">
@@ -47,31 +57,44 @@
 
 <style lang="scss" scoped>
 
+     .footer {
+          padding: 20px;
+          background-color: #001D6E;
+
+          p,
+          h1,
+          li {
+               color: #fff;
+               font-family: 'Jost', sans-serif;
+
+          }
+
+          p {
+               font-size: 15px;
+          }
+
+          .col-lg-4 {
+               padding: 5px;
+          }
+
+          ul,
+          li {
+               font-size: 17px;
+
+          }
+
+          .link {
+               text-decoration: none;
+               color: #fff;
+               font-family: 'Jost', sans-serif;
+          }
 
 
-.footer {
-     padding: 25px;
-     background-color: #001D6E;
+          h1 {
+               text-transform: uppercase;
+               font-size: 20px;
+               
 
-     p, h1, li {
-          color: #fff;
-          font-family: 'Jost', sans-serif;
-          font-size: 17px;
+          }
      }
-
-     .col-lg-4 {
-          padding: 10px;
-     }
-
-     ul {
-          padding: 15px;
-          font-size: 17px;
-     }
-
-     h1 {
-          text-transform: uppercase;
-          
-     }
-}
-
 </style>

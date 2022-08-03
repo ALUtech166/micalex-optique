@@ -9,16 +9,16 @@
           <router-link class="link" :to="{ name: 'Home' }">Acceuil</router-link>
         </li>
         <li>
-          <router-link class="link" :to="{ name: '' }">A Propos</router-link>
+          <router-link class="link" :to="{ name: 'About' }">A Propos</router-link>
         </li>
         <li>
-          <router-link class="link" :to="{ name: '' }">Services</router-link>
+          <router-link class="link" :to="{ name: 'Service' }">Services</router-link>
         </li>
         <li>
-          <router-link class="link" :to="{ name: '' }">Galerie</router-link>
+          <router-link class="link" :to="{ name: 'Galerie' }">Galerie</router-link>
         </li>
         <li>
-          <router-link class="link" :to="{ name: '' }">Contact</router-link>
+          <router-link class="link" :to="{ name: 'Contact' }">Contacts</router-link>
         </li>
         <li>
           <button href="" class="btn btn-outline-primary btn-aminated">Prenez un rendez-vous</button>
@@ -36,16 +36,16 @@
             <router-link class="link" :to="{ name: 'Home' }">Acceuil</router-link>
           </li>
           <li>
-            <router-link class="link" :to="{ name: '' }">A Propos</router-link>
+            <router-link class="link" :to="{ name: 'About' }">A Propos</router-link>
           </li>
           <li>
-            <router-link class="link" :to="{ name: '' }">Services</router-link>
+            <router-link class="link" :to="{ name: 'Service' }">Services</router-link>
           </li>
           <li>
-            <router-link class="link" :to="{ name: '' }">Galerie</router-link>
+            <router-link class="link" :to="{ name: 'Galerie' }">Galerie</router-link>
           </li>
           <li>
-            <router-link class="link" :to="{ name: '' }">Contact</router-link>
+            <router-link class="link" :to="{ name: 'Contact' }">Contacts</router-link>
           </li>
           <li>
             <button href="" class="btn btn-outline-primary btn-aminated">Prenez un rendez-vous</button>
